@@ -1,0 +1,90 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --White: #ffffff;
+    --Gray: gray;
+    --Purple: #755aeb;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    min-height: 100vh;
+    background-color: var(--Purple);
+}
+
+.container .wrapper {
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .wrapper input {
+    height: 50px;
+    width: 0%;
+    color: var(--Gray);
+    padding: 15px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    display: none;
+}
+
+/* Toggle Input */
+.container .wrapper input.open {
+    display: block;
+    width: 88%;
+}
+
+.container .wrapper button {
+    width: 12%;
+}
+
+.container .wrapper button {
+    height: 50px;
+    width: 50px;
+    background-color: var(--White);
+    border: none;
+    outline: none;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.container .wrapper button img {
+    height: 30px;
+    width: 30px;
+}
+
+.container h5 {
+    color: var(--White);
+    font-weight: initial;
+}
+
+.container h5 a {
+    color: #6dc6ff;
+    font-weight: bold;
+    text-decoration: underline;
+}
