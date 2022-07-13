@@ -81,6 +81,8 @@ body, html {
 .container h5 {
     color: var(--White);
     font-weight: initial;
+    padding: 20px;
+    line-height: 25px;
 }
 
 .container h5 a {
